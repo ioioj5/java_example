@@ -1,5 +1,5 @@
-# phpstorm project files
-.idea
+# idea project files
+/.idea
 
 # windows thumbnail cache
 Thumbs.db
