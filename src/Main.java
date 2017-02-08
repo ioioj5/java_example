@@ -1,14 +1,5 @@
+import Employee.*;
 import Spider.Spider;
-import normal.*;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.lang.reflect.Array;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.net.URLConnection;
-import java.util.ArrayList;
 
 //import java.util.ArrayList;
 //import java.util.Collection;
@@ -18,7 +9,21 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
         // 例子1: 爬虫
-        spider();
+        //spider();
+
+        Employee a = new Employee();
+        a.setName("王三");
+        a.setSalary(100);
+
+        System.out.println(a.toString());
+
+        Manager m = new Manager();
+        m.setName("李四");
+        m.setSalary(100);
+        m.setBonus(50);
+
+        System.out.println(m.toString());
+
 
 
 //		CollectionTest ct = new CollectionTest();
